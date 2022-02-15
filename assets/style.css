@@ -1,0 +1,156 @@
+/* Description: Primary stylesheet for Updated Portfolio */
+/* Author: Jane Tiglao */
+
+:root {
+    --color: #554348; 
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+    background-color: antiquewhite;
+}
+
+.block {
+    box-sizing: border-box;
+    margin: 30px;
+    width: 95%;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+
+
+/* Sidebar */
+
+.sidebar {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    background-color: #2C1320;
+}
+
+.recent-photo img {
+    display: inline-flexbox;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 150px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-me {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.follow-me {
+    margin-top: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+}
+
+.download-link {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+p {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Header */
+h1 span {
+    color: #5F4B66;
+}
+
+.title {
+    text-align: left;
+    font-size: 40px;
+}
+
+/* Navbar */
+.navbar {
+    margin-right: 60px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    float: right;
+}
+
+.navbar li {
+    padding: 10px;
+    float: right;
+    color: blueviolet
+
+}
+
+/* Main container for Project 1 */
+.subtitle {
+    padding-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    border-bottom: 1px solid #5F4B66;
+}
+
+/* Small containers for assignments */
+.assignment1 {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.assignment2 {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.assignment3 {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.assignment4 {
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.row {
+    padding: 30px;
+    border-bottom: 1px solid #5F4B66;
+    
+}
+
+/* Footer */
+.footer {
+    background-color: antiquewhite;
+    color: #2C1320;
+
+}
