@@ -1,0 +1,215 @@
+/* Description: Primary stylesheet for Updated Portfolio */
+/* Author: Jane Tiglao */
+
+:root {
+    --font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    display: flexbox;
+    width: 100%;
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: antiquewhite;
+}
+
+.block {
+    box-sizing: border-box;
+    margin: 0;
+    width: 95%;
+    height: auto;
+    background-color: antiquewhite;
+}
+
+/* Sidebar */
+
+.sidebar {
+    margin: 0;
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #51355A;
+}
+
+.recent-photo img {
+    display: inline-flexbox;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 50%;
+    border-radius: 150px;
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.contact-me {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.phone {
+    text-align: left;
+    font-size: 15px;
+}
+
+.email {
+    margin-bottom: 40px;
+    text-align: left;
+    font-size: 15px;
+}
+
+.follow-me {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    text-transform: uppercase;
+    color: white;
+}
+
+.download-link {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.icon-bar{
+    margin-bottom: 30px;
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    list-style-type: none;
+    background-color: #51355A;
+}  
+
+.intro {
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+/* Header */
+h1 span {
+    color: #724681;
+}
+
+.title {
+    text-align: left;
+    font-size: 40px;
+}
+
+/* Navbar */
+.navbar {
+    margin-right: 20px;
+    padding: 5px;
+    overflow: hidden;
+    background-color: antiquewhite;
+    float: right;
+}
+
+.navbar li {
+    padding: 10px;
+    float: right;
+    color: violet
+}
+
+/* Main container for Project 1 */
+.subtitle {
+    padding-bottom: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;  
+}
+
+.project-name {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #51355A;
+}
+
+.project-box {
+    box-sizing: border-box;
+    margin: 10px;
+    width: 100%;
+    height: 60%;
+    align-items: center;
+   
+}
+
+.badges {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+
+/* Small containers for assignments */
+.homework {
+    margin-bottom: 20px;
+    padding-left: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #51355A;
+}
+
+.hw-box {
+    width: 100%;
+    height: 80%;
+}
+
+.hw-img {
+    width: 100%;
+    height: 80%;
+    align-items: center;
+}
+
+.row {
+    padding: 30px; 
+}
+
+/* Footer */
+.footer {
+    background-color: antiquewhite;
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid #51355A;
+    border-bottom: 1px solid #51355A;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.icons {
+    text-align: center;
+}
+
+.button {
+    margin-top: 60px;
+    text-align: right;
+    background-color: rgb(204, 161, 204);
+    font-size: 12px;
+    font-weight: bold;
+}
