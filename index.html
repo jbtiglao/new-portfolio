@@ -8,8 +8,9 @@
     <title>Jane Tiglao | Updated Portfolio</title>
     <meta name="keywords" content="web developer, full-stack, front-end" />
     <meta name="viewport" content="width=device=width" initial-scale="1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" />
-    <link rel="stylesheet" href="./assets/style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
 <body>
@@ -18,13 +19,14 @@
             <div class="columns is-multiline">
                 <!-- Side bar, left side -->
                 <div class="column is-one-quarter">
-                    <div class="sidebar">
-                        <h2 class="about-me">About Me</h2>
-                        <div class="recent-photo">
+                    <div class="sidebar" id="sidebar">
+                        <!-- About Me -->
+                        <h2 class="about-me" id="about-me">About Me</h2>
+                        <div class="recent-photo" id="recent-photo">
                             <img src="./assets/images/avatar_jtiglao.JPG" alt="recent photo">
                         </div>
-                        <p>Hello, I'm Jane.</p>
-                        <p>Say your prayers, little one, don't forget, my son
+                        <p class="intro">Hello, I'm Jane.</p>
+                        <p class="intro">Say your prayers, little one, don't forget, my son
                             To include everyone
                             I tuck you in, warm within, keep you free from sin
                             'Til the Sandman, he comes
@@ -45,40 +47,80 @@
                             Take my hand
                             We're off to never-never land</p>
 
-                        <div class="download-link"><a href="">Download Resume</a></div>
-                        <h2 class="contact-me">Contact Me</h2>
-                        <ul>
-                            <li><a href="#phone">Phone</a></li>
-                            <li><a href="#email">Email</a></li>
-                            <li><a href="#linkedin">LinkedIn</a></li>
-                            <li><a href="#github">GitHub</a></li>
-                            <li><a href="Google+">Google+</a></li>
-                        </ul>
-                        <h2 class="follow-me">Follow Me</h2>
-                        <ul>
-                            <li><a href="Instagram">Instagram</a></li>
-                            <li><a href="Twitter">Twitter</a></li>
-                            <li><a href="Tiktok">Tiktok</a></li>
-                            <li><a href="YouTube">YouTube</a></li>
-                        </ul>
+                        <!-- Professional links -->
+                        <div class="download-link">
+                            <a href="" target="_blank">Download Resume</a></div>
+
+                        <div class="icon-bar">
+                            <a href="https://www.linkedin.com/in/jane-tiglao-257928168/" target="_blank">
+                                <img src="https://img.icons8.com/external-justicon-flat-justicon/46/000000/external-linkedin-social-media-justicon-flat-justicon.png"
+                                    alt="linkedin-icon"></img></a>
+
+                            <a href="https://github.com/jbtiglao" target="_blank">
+                                <img src="https://img.icons8.com/color/55/000000/github--v3.png"
+                                    alt="github-icon"></img></a>
+                        </div>
+
+                        <!-- Contact info-->
+                        <h2 class="contact-me" id="contact-me">Contact Me</h2>
+                        <div class="phone" id="phone">
+                            <a href="tel.18056243015" target="_blank">
+                                <img src="https://img.icons8.com/external-justicon-flat-justicon/50/000000/external-phone-notifications-justicon-flat-justicon.png"
+                                    alt="phone-icon">805.624.3015</a></div>
+                        <div class="email" id="email">
+                            <a href="http://www.gmail.com" target="_blank">
+                                <img src="https://img.icons8.com/external-justicon-flat-justicon/50/000000/external-email-notifications-justicon-flat-justicon.png"
+                                    alt="email-icon"> janeytiglao@gmail.com</img></a></div>
+
+                        <!-- Social Media-->
+                        <h2 class="follow-me" id="follow-me">Follow Me</h2>
+                        <div class="icon-bar" id="icon-bar">
+                            <a href="https://www.instagram.com" target="_blank">
+                                <img src="https://img.icons8.com/fluency/50/000000/instagram-new.png"
+                                    alt="instagram-icon"></img></a>
+                            <a href="https://www.twitter.com" target="_blank">
+                                <img src="https://img.icons8.com/fluency/45/000000/twitter.png"
+                                    alt="twitter-icon"></img></a>
+                            <a href="https://www.tiktok.com" target="_blank">
+                                <img src="https://img.icons8.com/color/55/000000/tiktok--v1.png"
+                                    alt="tiktok-icon"></img></a>
+                            <a href="https://www.youtube.com" target="_blank">
+                                <img src="https://img.icons8.com/color/50/000000/youtube-squared.png"
+                                    alt="youtube-icon"></img></a>
+                        </div>
+
                     </div>
                 </div>
+
                 <!-- Header and Navbar -->
                 <div class="column is-three-fourths">
                     <h1 class="title">Jane Tiglao | <span>Portfolio</span></h1>
                     <div class="navbar">
                         <ul>
+                            <li><a href="#contact-me">Contact</a></li>
+                            <li><a href="#about-me">About</a></li>
+                            <li><a href="#project">Work</a></li>
                             <li><a class="active" href="#home">Home</a></li>
-                            <li><a href="#about">About</a></li>
-                            <li><a href="#work">Work</a></li>
-                            <li><a href="#contact">Contact</a></li>
                         </ul>
                     </div>
 
                     <!-- Main container for Project 1 -->
                     <div class="column is-three-fourths">
-                        <h2 class="subtitle">Project</h2>
+                        <div class="project-box" id="project-box">
+                            <h2 class="subtitle" id="project">Projects</h2>
+                            <h3 class="project-name" id="project-name">Project 1: Food For Thought</h3>
+                            <div class="project-img">
+                                <img src="./assets/images/image1_project1.png"></img></div>
 
+                            <div class="badges" id="badges">
+                                <a href="https://jasonjayoo.github.io/Our-Project-1/" target="_blank"><img
+                                        src="https://img.shields.io/badge/-Live%20Site-green"
+                                        alt="live-site-badge"></img></a>
+                                <a href="https://github.com/jasonjayoo/Our-Project-1" target="-blank"><img
+                                        src="https://img.shields.io/badge/-GitHub%20Repo-blueviolet"
+                                        alt="github-repo-badge"></img></a>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Small containers for Assignments -->
@@ -86,52 +128,60 @@
                     <div class="row">
                         <div class="columns">
                             <div class="column is-half">
-                                <h3 class="assignment1">Assignment1</h3>
-                                <p>Image</p>
-                                <p>Description</p>
+                                <h3 class="homework">Homework 1: Password Generator</h3>
+                                <div class="hw-box" id="hw-box">
+                                    <div class="hw-img" id="hw-img">
+                                        <img src="./assets/images/image3_hw1_password_gen.png" alt=""></img>
+
+                                        <div class="badges" id="badges">
+                                            <a href="https://jbtiglao.github.io/pw-gen-project" target="_blank"><img
+                                                    src="https://img.shields.io/badge/-Live%20Site-green"
+                                                    alt="live-site-badge"></img></a>
+                                            <a href="https://github.com/jbtiglao/pw-gen-project" target="-blank"><img
+                                                    src="https://img.shields.io/badge/-GitHub%20Repo-blueviolet"
+                                                    alt="github-repo-badge"></img></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+
                             <div class="column is-half">
-                                <h3 class="assignment2">Assignment2</h3>
+                                <h3 class="homework">Homework 2: Workday Scheduler</h3>
+                                <div class="hw-box" id="hw-box">
+                                    <div class="hw-img" id="hw-img">
+                                        <img src="./assets/images/image4_hw2_planner.png" alt=""></img>
+
+                                        <div class="badges" id="badges">
+                                            <a href="https://jbtiglao.github.io/workday-scheduler" target="_blank"><img
+                                                    src="https://img.shields.io/badge/-Live%20Site-green"
+                                                    alt="live-site-badge"></img></a>
+                                            <a href="https://github.com/jbtiglao/workday-scheduler" target="-blank"><img
+                                                    src="https://img.shields.io/badge/-GitHub%20Repo-blueviolet"
+                                                    alt="github-repo-badge"></img></a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-
-                    </div>
-                    <!-- Assignments 3 and 4 -->
-                    <div class="row">
-                        <div class="columns">
-                            <div class="column is-half">
-                                <h3 class="assignment3">Assignment3</h3>
-                                <p>Image</p>
-                                <p>Content</p>
-                            </div>
-                            <div class="column is-half">
-                                <h3 class="assignment4">Assignment4</h3>
-                            </div>
-                        </div>
-
                     </div>
 
+                    <!-- Footer -->
                     <div class="row">
                         <div class="columns">
                             <div class="column is-three-fourths">
                                 <div class="footer">
-                                    <p>&copy; Copyright 2022 Janey T. All rights reserved.</p>
-                                    <ul>
-                                        <li>Terms</li>
-                                        <li>Privacy</li>
-                                        <li>Back to Top</li>
-                                    </ul>
-
+                                    <p class="copyright">&copy; Copyright 2022 by Janey Tiglao. All rights reserved.</p>
+                                    <p class="icons">App icons by <a href="https://icons8.com/">icons8.</a>
+                                        Badges generated by <a href="https://shields.io/">shields.io</a></p>
+                            
+                                        <div class="button" id="back-to-top">
+                                            <a href="#top">Back to Top</a>
+                                        </div>
                                 </div>
                             </div>
                         </div>
-
                     </div>
-
-
                 </div>
-
-
             </div>
         </div>
     </section>
