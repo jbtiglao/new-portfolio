@@ -50,7 +50,7 @@ The updated resume has the following interface when viewed using different scree
 
 ![responsiveness](/assets/images/pic8_responsiveness.png)
 
-The application is responsive when being zoomed in or out, or swiped up or down using the forefinger and thumb as is typically done with iPhone screens and tablets. It is also responsive when the device or screen is tilted or turned on its side.
+The application is responsive when slid to the left or right side using the Chrome Inspect tool, or when being zoomed in or out and swiped up or down using the forefinger and thumb as is typically done with iPhone screens and tablets. It is also responsive when the device or screen is tilted or turned on its side.
 
 1. iPhone 13
 
@@ -111,7 +111,7 @@ In addition to the new portfolio, the following professional materials have also
 
 ## Installation
 
-This application runs in the browser, with the deployed site at  https://jbtiglao.github.io/new-portfolio/. The application's HTML, CSS, README, images, and LICENSE files are found in its repository at https://github.com/jbtiglao/new-portfolio. 
+This application runs in the browser, with the [deployed site here](https://jbtiglao.github.io/new-portfolio/). The application's HTML, CSS, README, images, and LICENSE files are found in its [repository here](https://github.com/jbtiglao/new-portfolio). 
 
 ## Usage
 
