@@ -51,6 +51,12 @@ body {
     color: white;
 }
 
+.project-description {
+    margin-top: 10px;
+    font-size: 15px;
+    text-align: justify;
+}
+
 .contact-me {
     margin-top: 40px;
     margin-bottom: 10px;
@@ -113,7 +119,7 @@ body {
 
 .intro2 {
     padding-top: 20px;
-    text-align: center;
+    text-align: justify;
     font-size: 15px;
     color: white;
 }
