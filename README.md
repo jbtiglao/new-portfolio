@@ -7,9 +7,9 @@ The past several weeks have seen our class work on and deploy our first project 
 This README pertains to (1) the updated developer portfolio and (2) other professional materials consisting of the following: updated resume, LinkedIn profile, and GitHub profile.
 
 ### The Updated Portfolio
-This updated portfolio remains faithful to the first portofolio the developer was tasked to create at the beginning of the course. You can see the [deployed first portfolio here](https://jbtiglao.github.io/portfolio/) and its [GitHub repository and documentation here](https://github.com/jbtiglao/portfolio) for reference.
+In terms of functionalities, this updated portfolio remains true to the first portofolio the developer was tasked to create at the beginning of the course. You can see the [deployed first portfolio here](https://jbtiglao.github.io/portfolio/) and its [GitHub repository and documentation here](https://github.com/jbtiglao/portfolio) for reference.
 
-In addition to the functionalities required in the first portfolio, this updated portfolio version has the following interface:
+Meanwhile, the updated portfolio is deployed here: https://jbtiglao.github.io/new-portfolio/ while its repository is found here: https://github.com/jbtiglao/new-portfolio. It has the following interface:
 
 ![updated-portfolio](/assets/images/pic1_interface.png)
 
