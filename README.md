@@ -50,6 +50,8 @@ The updated resume has the following interface when viewed using different scree
 
 ![responsiveness](/assets/images/pic8_responsiveness.png)
 
+The application is responsive when being zoomed in or out, or swiped up or down using the forefinger and thumb as is typically done with iPhone screens and tablets. It is also responsive when the device or screen is tilted or turned on its side.
+
 1. iPhone 13
 
 ![iphone13](/assets/images/pic9_iphone.png)
