@@ -151,8 +151,11 @@ The following books, materials, websites, and tutorials were consulted in the de
 
 - [Coding Bootcamp Professional README Guide](httpss://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
-### Author and Collaborators
-Email Jane Tiglao [here](janeytiglao@gmail.com) for inquiries. 
+### Author
+Jane Tiglao
+
+### Collaborators
+Email [here](janeytiglao@gmail.com) for inquiries. 
 
 ### License
 MIT License. Please see the LICENSE on the application's [GitHub repository](https://github.com/jbtiglao/new-portfolio) for reference. 
